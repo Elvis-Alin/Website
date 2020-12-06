@@ -1,0 +1,97 @@
+/* REVEAL AND HIDE  */
+.toggle-btn {
+  display: none;
+  cursor: pointer;
+}
+
+.toggle-btn-visible {
+  display: block;
+}
+
+.toggle-target-hidden {
+  display: none;
+}
+
+.toggle-target-expanded {
+  display: block;
+}
+
+
+/* READ-MORE */
+.read-more {
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  display: block;
+  text-decoration: underline;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* BUTTONS */
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 25px 0;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: rgb(255, 0, 0);
+}
+
+.btn-secondary {
+  background: rgb(136, 136, 136);
+}
+
+.btn-outline {
+  border: 1.5px solid rgb(255, 255, 255);
+}
+
+/* TEXT-CENTERED */
+.text-centered {
+  text-align: center;
+}
+
+/* FLEX-CONTENT */
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+
+/* GRID-ITEMS */
+.grid-items2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-items3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-items4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* META */
+.meta {
+  padding: 30px 0 80px 0;
+}
