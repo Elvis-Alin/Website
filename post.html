@@ -91,13 +91,13 @@
       <div class="container">
         <div class="text-centered">
           <h4>Contact Us</h4>
-        <p>Plese fill out the form below to contact us!</p>
+          <p>Plese fill out the form below to contact us!</p>
         </div>
-        <form action="">
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Phone Number">
-          <input type="text" placeholder="Email Address">
-          <textarea placeholder="Message"></textarea>
+        <form id="contactForm" netlify action="POST" data-netlify="true">
+          <input type="text"  placeholder="Full Name" name="name" id="name">
+          <input type="tel" placeholder="Phone Number" name="tel" id="tel">
+          <input type="email"  placeholder="Email Address" name="email" id="email">
+          <textarea  type="file" placeholder="Message" name="message" id="message"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
