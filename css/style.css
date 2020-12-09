@@ -303,6 +303,8 @@ footer {
 }
 #post article {
   padding: 0 250px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 #post article p {
   text-align: justify;
