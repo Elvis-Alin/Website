@@ -12,6 +12,8 @@ img {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.6;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4 {
@@ -40,6 +42,8 @@ a {
   background: rgba(0, 0, 0, 0.8);
   transition: 0.5s ease-in-out;
   z-index: 20 !important;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .navbar a {
