@@ -30,7 +30,10 @@
 }
 
 
-
+/* Active */
+.active {
+  background-color: rgb(255, 0, 0);
+}
 
 
 
@@ -96,6 +99,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid-items4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
