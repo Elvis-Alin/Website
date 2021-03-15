@@ -401,6 +401,10 @@ footer {
     display: block;
   }
 
+  .header-content {
+    padding: 0 20px;
+  }
+
 
 
 
