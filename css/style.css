@@ -514,6 +514,16 @@ footer {
   #post article {
     padding: 0 100px;
   }
+
+  .grid-items4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #services .item {
+    margin: 10px;
+
+  }
 }
 
 
