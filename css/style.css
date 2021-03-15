@@ -16,7 +16,10 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.2;
 }
 
@@ -67,6 +70,7 @@ a {
 .menu-items li a:hover {
   border-bottom: 1px solid red;
 }
+
 .menu-btn {
   position: relative;
   display: none;
@@ -121,7 +125,7 @@ a {
 
 /* HEADER */
 .header {
-  background: url(../poze/istockphoto-1.jpg) no-repeat center center / cover;
+  background: url(../poze/4.jpg) no-repeat center center / cover;
   height: 100vh;
   position: relative;
 }
@@ -137,7 +141,7 @@ a {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.65);
 }
 
 .header * {
@@ -157,17 +161,24 @@ a {
 }
 
 #about .text {
-  background: rgb(255, 0, 0);
+  background: rgb(180, 6, 6);
+  /* background: rgb(255, 0, 0); */
 }
-
 
 
 
 
 /* SERVICES */
+
+#services {
+  padding-top: 1px;
+  background: rgb(228, 228, 228);
+}
+
 #services .grid-items4 {
   padding: 50px;
 }
+
 #services .item {
   margin-right: 20px;
   padding: 50px 30px;
@@ -198,10 +209,9 @@ a {
 /* GALLERY */
 #gallery .grid-items4 {
   padding: 50px;
-  
 }
 
-#gallery .grid-items4 a{
+#gallery .grid-items4 a {
   margin-right: 7px;
 }
 
@@ -210,12 +220,13 @@ a {
 
 /* BLOG */
 #blog {
-  padding: 50px;
+  padding: 150px 50px 50px 50px;
 }
 
 .header.blog {
   height: 30vh;
 }
+
 #blog .grid-items2 {
   margin-bottom: 50px;
 }
@@ -224,6 +235,7 @@ a {
 /* CONTACT */
 #contact {
   background: #000;
+  padding-top: 50px;
 }
 
 #contact h4 {
@@ -279,6 +291,7 @@ address .grid-items3 {
   text-align: center;
   padding: 50px;
 }
+
 address .item i {
   margin: 10px;
 }
@@ -305,17 +318,19 @@ footer {
   padding-bottom: 100px;
 
 }
+
 #post article {
   padding: 0 250px;
   max-width: 1300px;
   margin: 0 auto;
 }
+
 #post article p {
   text-align: justify;
   line-height: 1.8;
 }
 
-#post article .paragraph{
+#post article .paragraph {
   padding-bottom: 50px;
 }
 
@@ -374,23 +389,26 @@ footer {
 
 
   /* GRID-ITEMS */
-  .grid-items2{
+  .grid-items2 {
     display: block;
   }
-  .grid-items3{
+
+  .grid-items3 {
     display: block;
   }
-  .grid-items4{
+
+  .grid-items4 {
     display: block;
   }
 
 
 
-  
+
   /* ABOUT */
   #about {
     padding: 0;
   }
+
   .text {
     padding: 25px 20px;
   }
@@ -405,19 +423,20 @@ footer {
   /* GALLERY */
   #gallery .grid-items4 {
     padding: 7px;
-    
+
   }
 
-  #gallery .grid-items4 a{
+  #gallery .grid-items4 a {
     margin-right: 7px;
   }
 
 
 
- /* SERVICES */
+  /* SERVICES */
   #services .grid-items4 {
-    padding: 30px 0 0 0 ;
+    padding: 30px 0 0 0;
   }
+
   #services .item {
     padding: 25px 10px;
     border-bottom: 1px solid #000;
@@ -428,6 +447,7 @@ footer {
   #services .item h3 {
     border-bottom: none;
   }
+
   #services .item:last-child {
     border-bottom: none;
   }
@@ -441,7 +461,7 @@ footer {
 
   /* BLOG */
   #blog {
-    padding: 30px 0 0 0 ;
+    padding: 30px 0 0 0;
   }
 
 
@@ -449,7 +469,7 @@ footer {
   #contact .container {
     padding: 20px 20px;
   }
-  
+
   #contact form {
     padding: 30px 0 0 0;
     background: none;
@@ -460,12 +480,13 @@ footer {
   address .grid-items3 {
     padding: 0;
   }
+
   address .item {
     border-bottom: 1px solid #000;
     padding: 20px 0;
   }
 
- 
+
   address .item:last-child {
     border-bottom: none;
   }
@@ -473,13 +494,13 @@ footer {
 
 
 
-    /* POST */
+  /* POST */
   #post article {
     padding: 0 40px;
   }
+
   #post article p {
     line-height: 1.6;
   }
-  
-}
 
+}
